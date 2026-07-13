@@ -125,3 +125,94 @@ img{
     color: #59636d;
     font-size: 17px;
 }
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.card{
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.card img{
+    width: 65px;
+    margin-bottom: 15px;
+}
+
+.card h3{
+    margin-bottom: 10px;
+}
+
+.card p{
+    color: #59636d;
+    line-height: 1.5;
+}
+
+.footer{
+    padding: 45px 8%;
+    background-color: #1e5c23;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+.footer h3{
+    margin-bottom: 15px;
+}
+
+.footer a,
+.footer p{
+    display: block;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-simple{
+    padding: 25px;
+    background-color: #1e5c23;
+    color: #ffffff;
+    text-align: center;
+}
+
+@media(max-width: 900px){
+    .header{
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .nav{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .hero-image img{
+        width: 280px;
+    }
+    
+    .hero-content h1,
+    .hero-content p{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .benefits-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .footer{
+        grid-template-columns: 1fr;
+    }
+}
