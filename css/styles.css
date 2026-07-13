@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #1c2733;
+}
+
+img{
+    max-width: 100%;
+}
+
+.header{
+    width: 100%;
+    min-height: 75px;
+    padding: 15px 7%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dddddd;
+}
+
+.brand a{
+    color: #237a33;
+    font-size: 25px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav a{
+    color: #1c2733;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav a:hover{
+    color: #237a33;
+}
+
+.nav-button{
+    padding: 12px 20px;
+    color: #ffffff;
+    background-color: #349642;
+    border-radius: 6px;
+}
+.hero{
+    min-height: 480px;
+    padding: 60px 8%;
+    background-color: #f2faf2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-content h1{
+    max-width: 550px;
+    margin-bottom: 20px;
+    font-size: 52px;
+    line-height: 1.1;
+}
+
+.hero-content p{
+    max-width: 550px;
+    margin-bottom: 30px;
+    font-size: 19px;
+    line-height: 1.6;
+}
+
+.hero-image{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img{
+    width: 430px;
+}
+
+.primary-button{
+    display: inline-block;
+    padding: 14px 24px;
+    background-color: #349642;
+    color: #ffffff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.primary-button:hover{
+    background-color: #237a33;
+}
+
+.section-benefits{
+    padding: 60px 8%;
+}
+
+.section-title{
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.section-title h1,
+.section-title h2{
+    margin-bottom: 10px;
+    color: #1c2733;
+    font-size: 34px;
+}
+
+.section-title p{
+    color: #59636d;
+    font-size: 17px;
+}
