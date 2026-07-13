@@ -171,12 +171,6 @@ img{
     text-decoration: none;
 }
 
-.footer-simple{
-    padding: 25px;
-    background-color: #1e5c23;
-    color: #ffffff;
-    text-align: center;
-}
 
 @media(max-width: 900px){
     .header{
@@ -206,10 +200,6 @@ img{
 
     .cards{
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    .benefits-grid{
-        grid-template-columns: 1fr;
     }
 
     .footer{
